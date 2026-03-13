@@ -1,20 +1,17 @@
 <div align="center">
 
-```
-███████╗███████╗ ██████╗██╗   ██╗██████╗ ███████╗
-██╔════╝██╔════╝██╔════╝██║   ██║██╔══██╗██╔════╝
-███████╗█████╗  ██║     ██║   ██║██████╔╝█████╗
-╚════██║██╔══╝  ██║     ██║   ██║██╔══██╗██╔══╝
-███████║███████╗╚██████╗╚██████╔╝██║  ██║███████╗
-╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
-          AI  ·  APP
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner.svg">
+  <img alt="secure-ai-app" src="docs/assets/banner.svg" width="700">
+</picture>
 
-**Security guardrails for AI-generated code.**
+<br/><br/>
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/@secure-ai-app/cli.svg)](https://www.npmjs.com/package/@secure-ai-app/cli)
 [![npm downloads](https://img.shields.io/npm/dm/@secure-ai-app/cli.svg)](https://www.npmjs.com/package/@secure-ai-app/cli)
+[![zero LLM](https://img.shields.io/badge/LLM-none-d4a853.svg)](#no-llm-in-the-loop)
 
 </div>
 
@@ -40,6 +37,14 @@ npx @secure-ai-app/cli scan
 **No account. No platform. No GitHub OAuth. No signup. Just results.**
 
 Runs in milliseconds. Works offline. Gates your CI. Understands your stack.
+
+### No LLM in the loop
+
+This is deterministic — regex, AST analysis, file system checks. Same input, same results, every time. No model, no API key, no inference cost.
+
+Why? Because LLMs optimize for *completion*, not safety. They'll confidently generate code that runs, passes type checks, and leaks your API keys to the client bundle. They're solving for "does it work" — not "should it ship." The same fluency that makes them fast makes them dangerous when nobody's checking.
+
+`secure-ai-app` doesn't reason about your code. It *inspects* it. That's the difference between a tool that might catch something and one that always will.
 
 ---
 
