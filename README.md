@@ -117,7 +117,7 @@ secure-ai-app status
 
 ## Rules
 
-10 rules across 4 categories. 7 are universal — 3 provide deep SDK-aware analysis for [Flowstack](https://github.com/KeonCummings/flowstack-sdk) projects and are automatically skipped in projects that don't use the SDK.
+10 rules across 4 categories. 7 are universal — 3 provide deep SDK-aware analysis for [Flowstack](https://flowstack.fun) projects and are automatically skipped in projects that don't use the SDK.
 
 | Rule | Severity | Engine |
 |------|----------|--------|
@@ -238,7 +238,7 @@ const results = fixer.applyAll(fixer.getFixableFindings(report.findings), '.');
 
 ## Part of Flowstack
 
-`secure-ai-app` is the security layer of the [Flowstack](https://github.com/KeonCummings/flowstack-sdk) SDK.
+`secure-ai-app` is the security layer of the [Flowstack](https://flowstack.fun) SDK.
 
 Flowstack provides production-grade primitives for AI-native apps — auth, multi-tenancy, agent connectivity — all as React hooks. `secure-ai-app` knows every hook, every API pattern, every failure mode, because we built both sides.
 
