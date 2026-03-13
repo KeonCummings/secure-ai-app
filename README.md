@@ -1,12 +1,12 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner.svg">
-  <img alt="secure-ai-app" src="docs/assets/banner.svg" width="700">
-</picture>
+<img alt="secure-ai-app scan results" src="docs/assets/scan-results.png" width="700">
 
-<br/><br/>
+<br/>
+
+# secure-ai-app
+
+**Security guardrails for AI-generated code.**
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/@secure-ai-app/cli.svg)](https://www.npmjs.com/package/@secure-ai-app/cli)
