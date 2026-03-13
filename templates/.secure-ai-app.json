@@ -1,0 +1,14 @@
+{
+  "severity": "medium",
+  "format": "table",
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next",
+    "build",
+    "coverage"
+  ],
+  "hooks": {
+    "preCommit": true
+  }
+}

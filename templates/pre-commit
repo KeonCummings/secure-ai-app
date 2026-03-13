@@ -1,0 +1,12 @@
+#!/bin/sh
+# secure-ai-app pre-commit hook
+# Run security scan on staged files before commit
+
+npx secure-ai-app scan --changed-only --severity high
+
+if [ $? -ne 0 ]; then
+  echo ""
+  echo "\033[31mSecurity issues found. Fix them or use --no-verify to skip.\033[0m"
+  echo "Run 'secure-ai-app fix' to auto-fix where possible."
+  exit 1
+fi
