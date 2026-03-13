@@ -4,7 +4,7 @@
 
 **Security guardrails for AI-generated code.**
 
-Built for teams shipping fast with AI — where the code works but the security review didn't happen.
+Built for vibe coders — where the code works but the security review didn't happen.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/badge/npm-@secure--ai--app/cli-d4a853.svg)](https://www.npmjs.com/package/@secure-ai-app/cli)
