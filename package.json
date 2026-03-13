@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "secure-ai-app": "./dist/bin/secure-ai-app.js"
+    "secure-ai-app": "dist/bin/secure-ai-app.js"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
